@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="410dp"
+            android:layout_height="350dp"
+            android:src="@drawable/dua"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textStyle="normal"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:text="Dừa (Cocos nucifera) là một loài thực vật thân gỗ, thành viên thuộc họ Cau (Arecaceae) và là loài duy nhất còn sống thuộc chi Cocos.[1] Dừa có mặt khắp nơi tại các vùng nhiệt đới ven biển và là một biểu tượng văn hóa nhiệt đới. Dừa cung cấp thực phẩm, nhiên liệu, mỹ phẩm, thuốc dân gian và vật liệu xây dựng, cùng nhiều công dụng khác."/>
+
+    </LinearLayout>
+
+</RelativeLayout>

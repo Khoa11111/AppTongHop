@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng Ký"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="-50dp"/>
+
+    <EditText
+        android:id="@+id/txt_actSignup_accname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:ems="15"
+        android:hint="Tên Đăng Nhập"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/txt_actSignup_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:hint="Mật Khẩu"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:hint="Email"
+        android:minHeight="48dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_actSignup_signup"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/address"
+            android:text="Đăng Ký"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/txt_actLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Đăng Nhập?"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_gravity="right"
+            android:layout_marginRight="60dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

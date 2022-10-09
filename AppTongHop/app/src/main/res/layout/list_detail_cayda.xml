@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="410dp"
+            android:layout_height="350dp"
+            android:src="@drawable/da"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textStyle="normal"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:text="Cây đa (tên khác: cây đa đa, dây hải sơn, cây dong, cây da) có danh pháp hai phần (theo Bailey năm 1976) là Ficus bengalensis, một loài cây thuộc họ Dâu tằm (Moraceae), nó có thể phát triển thành loài cây khổng lồ mà tán của nó che phủ đến một vài nghìn mét vuông. Tại Việt Nam, một số người nhầm nó với cây sanh là cây cùng chi nhưng có tên khoa học khác hẳn"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
