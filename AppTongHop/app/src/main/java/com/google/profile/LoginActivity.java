@@ -16,6 +16,8 @@ import org.w3c.dom.Text;
 public class LoginActivity extends AppCompatActivity {
     private Button btnLogin;
     private TextView user, password, txtSignUp;
+    String name = "";
+    String pass = "";
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -26,14 +28,29 @@ public class LoginActivity extends AppCompatActivity {
         user = (TextView) findViewById(R.id.txt_actlogin_user);
         password = (TextView) findViewById(R.id.txt_actlogin_pass);
 
+        Intent intent = getIntent();
+        Bundle bundle = new Bundle();
+        bundle = intent.getBundleExtra("bundle");
+        if (bundle != null)
+        {
+            name = bundle.getString("acccomfirm");
+            pass = bundle.getString("Passcomfirm");
+        }
+
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(user.getText().toString().equals("admin") && password.getText().toString().equals("12345"))
+                if(user.getText().toString().equals("") | password.getText().toString().equals(""))
                 {
-                    Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
-                    startActivity(intent);
-                }
+                    Toast.makeText(LoginActivity.this, "Tài khoản hoặc mật khẩu trống", Toast.LENGTH_SHORT).show();
+                } else
+                    if(user.getText().toString().equals(name) && password.getText().toString().equals(pass))
+                    {
+                        Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
+                        startActivity(intent);
+                    } else {
+                        Toast.makeText(LoginActivity.this, "Tài khoản hoặc mật khẩu không chính xác", Toast.LENGTH_SHORT).show();
+                    }
             }
         });
 
