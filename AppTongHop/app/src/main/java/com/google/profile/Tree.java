@@ -2,15 +2,13 @@ package com.google.profile;
 
 public class Tree {
     private String Ten;
-    private String MoTa;
     private int Hinh;
 
     public Tree() {
     }
 
-    public Tree(String ten, String moTa, int hinh) {
+    public Tree(String ten, int hinh) {
         Ten = ten;
-        MoTa = moTa;
         Hinh = hinh;
     }
 
@@ -20,14 +18,6 @@ public class Tree {
 
     public void setTen(String ten) {
         Ten = ten;
-    }
-
-    public String getMoTa() {
-        return MoTa;
-    }
-
-    public void setMoTa(String moTa) {
-        MoTa = moTa;
     }
 
     public int getHinh() {

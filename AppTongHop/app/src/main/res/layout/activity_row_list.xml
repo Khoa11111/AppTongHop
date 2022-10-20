@@ -13,24 +13,13 @@
         android:id="@+id/textviewTen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
         android:layout_toRightOf="@+id/imageviewHinh"
         android:text="Ten"
         android:textColor="#F00"
         android:textSize="24dp"
         android:textStyle="bold"
-        android:layout_marginLeft="10dp"/>
-
-    <TextView
-        android:id="@+id/textviewMoTa"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textviewTen"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="15dp"
-        android:layout_toRightOf="@id/imageviewHinh"
-        android:text="Mo ta"
-        android:textColor="#F00"
-        android:textSize="18dp" />
+        android:paddingTop="30dp"/>
 
 </RelativeLayout>

@@ -3,8 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/ProjectAndroidStudio_122/AppTongHop/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
-        <entry key="..\:/ProjectAndroidStudio_122/AppTongHop/app/src/main/res/layout/activity_signup.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProjectAndroidStudio_122/AppTongHop/app/src/main/res/drawable/border.xml" value="0.147" />
+        <entry key="..\:/ProjectAndroidStudio_122/AppTongHop/app/src/main/res/drawable/round_btn.xml" value="0.147" />
+        <entry key="..\:/ProjectAndroidStudio_122/AppTongHop/app/src/main/res/drawable/round_btn_profile.xml" value="0.147" />
+        <entry key="..\:/ProjectAndroidStudio_122/AppTongHop/app/src/main/res/drawable/round_img.xml" value="0.147" />
+        <entry key="..\:/ProjectAndroidStudio_122/AppTongHop/app/src/main/res/layout/activity_home.xml" value="0.22" />
+        <entry key="..\:/ProjectAndroidStudio_122/AppTongHop/app/src/main/res/layout/activity_list.xml" value="0.25" />
+        <entry key="..\:/ProjectAndroidStudio_122/AppTongHop/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/ProjectAndroidStudio_122/AppTongHop/app/src/main/res/layout/activity_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProjectAndroidStudio_122/AppTongHop/app/src/main/res/layout/activity_row_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProjectAndroidStudio_122/AppTongHop/app/src/main/res/layout/activity_signup.xml" value="0.22" />
+        <entry key="..\:/ProjectAndroidStudio_122/AppTongHop/app/src/main/res/layout/list_detail_cayda.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProjectAndroidStudio_122/AppTongHop/app/src/main/res/layout/list_detail_caydua.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProjectAndroidStudio_122/AppTongHop/app/src/main/res/layout/list_detail_caysi.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProjectAndroidStudio_122/AppTongHop/app/src/main/res/layout/list_detail_cayxauho.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProjectAndroidStudio_122/AppTongHop/app/src/main/res/layout/list_detail_cayxuongrong.xml" value="0.203125" />
+        <entry key="..\:/ProjectAndroidStudio_122/AppTongHop/app/src/main/res/menu/menu_bottom_nav.xml" value="0.20416666666666666" />
         <entry key="..\:/ProjectAndroidStudio_122/AppTongHop/app/src/main/res/menu/option_menu.xml" value="0.33" />
         <entry key="..\:/ProjectAndroidStudio_122/Profile/app/src/main/res/drawable/bgbutton.xml" value="0.141" />
         <entry key="..\:/ProjectAndroidStudio_122/Profile/app/src/main/res/drawable/border.xml" value="0.141" />

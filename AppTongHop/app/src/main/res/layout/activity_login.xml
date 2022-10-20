@@ -8,22 +8,26 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/background"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg5"
         android:gravity="center"
         android:orientation="vertical">
 
-        <ImageView
-            android:layout_width="140dp"
-            android:layout_height="130dp"
-            android:layout_marginBottom="50dp"
-            android:src="@drawable/logo" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="80dp"
+            android:text="LOGIN"
+            android:textColor="@color/white"
+            android:textSize="50dp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/txt_actlogin_user"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
+            android:layout_marginTop="60dp"
             android:ems="15"
             android:hint="Tên đăng nhập"
             android:textSize="20dp" />
@@ -52,37 +56,38 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <Button
-                android:layout_gravity="center"
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_actLogin_login"
                 android:layout_width="250dp"
                 android:layout_height="70dp"
+                android:layout_gravity="center"
                 android:layout_marginTop="15dp"
-                android:backgroundTint="@color/address"
+                android:background="@drawable/round_btn"
                 android:text="Đăng nhập"
-                android:textSize="15dp" />
+                android:textSize="17dp"
+                android:textColor="@color/white"/>
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
                 android:layout_marginTop="15dp"
-                android:gravity="center">
+                android:gravity="center"
+                android:orientation="horizontal">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Chưa có tài khoản? "
-                    android:textSize="17dp"/>
+                    android:textSize="17dp" />
 
                 <TextView
                     android:id="@+id/txt_actSingup"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Đăng ký ngay >"
+                    android:textColor="@color/black"
                     android:textSize="17dp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"/>
+                    android:textStyle="bold" />
 
             </LinearLayout>
 

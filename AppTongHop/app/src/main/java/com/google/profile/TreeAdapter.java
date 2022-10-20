@@ -44,12 +44,10 @@ public class TreeAdapter extends BaseAdapter {
         view = inflater.inflate(layout, null);
 
         TextView txtTen = (TextView) view.findViewById(R.id.textviewTen);
-        TextView txtMoTa = (TextView) view.findViewById(R.id.textviewMoTa);
         ImageView imgHinh = (ImageView) view.findViewById(R.id.imageviewHinh);
 
         Tree tree = CayList.get(i);
         txtTen.setText(tree.getTen());
-        txtMoTa.setText(tree.getMoTa());
         imgHinh.setImageResource(tree.getHinh());
 
         return view;

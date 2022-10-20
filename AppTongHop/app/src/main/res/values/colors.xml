@@ -22,4 +22,5 @@
     <color name="grey">#E5E5E5</color>
     <color name="blue">#2596be</color>
     <color name="light_blue">#39c6c6</color>
+    <color name="bottom_nav">#16CACA</color>
 </resources>
